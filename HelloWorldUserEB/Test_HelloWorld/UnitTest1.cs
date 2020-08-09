@@ -21,6 +21,10 @@ namespace Test_HelloWorld
             Assert.Pass();
         }
 
+        //Citation:
+        //https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing?view=vs-2019
+        //The following unit test will capture the Console's output inside of the sw variable
+        //We will compare the value of sw with our expected output to make our assertion
 
         [Test]
         public void Test_HelloWorld()
